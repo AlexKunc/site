@@ -1,0 +1,122 @@
+body {
+    font-family: Montserrat, sans-serif;
+}
+header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+header img {
+    width: 400px;
+}
+header p {
+    text-align: center;
+    width: 400px;
+    font-size: 25px;
+}
+.nav ul {
+    list-style: none;
+    font-size: 25px;
+    text-align: center;
+    background: rgb(209, 138, 138);
+}
+.nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0 5px;
+}
+a:hover {
+    background: rgb(41, 40, 40);
+}
+a:visited {
+    text-decoration: none;
+    color: white;
+    padding: 0 5px;
+}
+.main__block__footer {
+    background-image: url('https://img.freepik.com/premium-photo/black-and-white-gradients-light-background-for-creative-project_1962-765.jpg');
+    background-size: 100% 100%;
+    margin-top: 130px;
+    display: flex;
+    width: 100%;
+}
+.main__block__footer img {
+    width: 300px;
+    padding-bottom: 50px;
+}
+.main__block__footer #politic {
+    text-decoration: none;
+    border-bottom: 1px dashed black;
+    display: inline;
+}
+.main__block__footer p {
+    color: rgb(132, 133, 133);
+    margin: 40px;
+}
+.main__block__footer #politic:hover {
+    cursor: pointer;
+    border: none;
+}
+.main__block__footer__contact {
+    margin: 40px;
+    width: 400px;
+    text-align: right;
+    font-size: 25px;
+}
+.main__block__footer__contact img {
+    width: 40px;
+    padding: 6px;
+}
+.main__block__footer__contact img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.main__block__history h6 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 17px;
+    color: rgb(110, 109, 109);
+    margin-top: 140px;
+    margin-bottom: 20px;
+    font-family: 'calibri';
+}
+.main__block__history h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.main__block__history p {
+    margin: 30px 20px;
+    color: grey;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.main__block__company {
+    display: flex;
+}
+.main__block__company img {
+    width: 450px;
+    height: 350px;
+}
+.main__block__company p {
+    margin: 0 45px;
+    font-size: 17px;
+    color: rgb(166, 168, 168);
+    line-height: 24px;
+}
+.main__block__images img {
+    width: 370px;
+    height: 270px;
+}
+.main__block__images {
+    margin-top: 20px;
+    text-align: center;
+}

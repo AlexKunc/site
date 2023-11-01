@@ -1,0 +1,109 @@
+body {
+    font-family: Montserrat, sans-serif;
+}
+header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+header img {
+    width: 400px;
+}
+header p {
+    text-align: center;
+    width: 400px;
+    font-size: 25px;
+}
+.nav ul {
+    list-style: none;
+    font-size: 25px;
+    text-align: center;
+    background: rgb(209, 138, 138);
+}
+.nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 5px;
+}
+.nav a:hover {
+    background: rgb(41, 40, 40);
+}
+.nav a:visited {
+    text-decoration: none;
+    color: white;
+    padding: 0 5px;
+}
+.main__block__footer {
+    background-image: url('https://img.freepik.com/premium-photo/black-and-white-gradients-light-background-for-creative-project_1962-765.jpg');
+    background-size: 100% 100%;
+    margin-top: 130px;
+    display: flex;
+    width: 100%;
+}
+.main__block__footer img {
+    width: 300px;
+    padding-bottom: 50px;
+}
+.main__block__footer #politic {
+    text-decoration: none;
+    border-bottom: 1px dashed black;
+    display: inline;
+}
+.main__block__footer p {
+    color: rgb(132, 133, 133);
+    margin: 40px;
+}
+.main__block__footer #politic:hover {
+    cursor: pointer;
+    border: none;
+}
+.main__block__footer__contact {
+    margin: 40px;
+    width: 400px;
+    text-align: right;
+    font-size: 25px;
+}
+.main__block__footer__contact img {
+    width: 40px;
+    padding: 6px;
+}
+.main__block__footer__contact img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.main__block__cart {
+    margin-left: 50px;
+}
+
+.main__block__info h1 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.main__block__info h3 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(163, 157, 157);
+}
+.main__block__info p {
+    font-weight: 100;
+    font-size: 23px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: rgb(163, 157, 157);
+}
+.main__block__info ul {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.main__block__info li {
+    font-size: 20px;
+}
